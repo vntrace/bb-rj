@@ -1,0 +1,260 @@
+/* line 5, ../../../../../../../../usr/lib/ruby/gems/1.8/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../../../usr/lib/ruby/gems/1.8/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../../../usr/lib/ruby/gems/1.8/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../../../usr/lib/ruby/gems/1.8/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../../../usr/lib/ruby/gems/1.8/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../../../usr/lib/ruby/gems/1.8/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../../../usr/lib/ruby/gems/1.8/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../../../usr/lib/ruby/gems/1.8/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../../../usr/lib/ruby/gems/1.8/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 1, ../sass/_todo.scss */
+html {
+  background: #f6f6f6;
+  background-repeat: no-repeat;
+  background: -moz-linear-gradient(top, #f6f6f6 0%, #e1e1e1 100%);
+  background: -webkit-linear-gradient(top, #f6f6f6 0%, #e1e1e1 100%);
+  background: -o-linear-gradient(top, #f6f6f6 0%, #e1e1e1 100%);
+  background: -ms-linear-gradient(top, #f6f6f6 0%, #e1e1e1 100%);
+  background: linear-gradient(to bottom, #f6f6f6 0%, #e1e1e1 100%);
+  min-height: 100%;
+}
+
+/* line 13, ../sass/_todo.scss */
+body {
+  font: 14px/1.3 'Segoe UI',Arial, sans-serif;
+  color: #444;
+}
+
+/* line 18, ../sass/_todo.scss */
+a, a:visited {
+  outline: none;
+  color: #43819b;
+}
+/* line 22, ../sass/_todo.scss */
+a:hover, a:visited:hover {
+  text-decoration: none;
+}
+
+/* line 27, ../sass/_todo.scss */
+section, footer, header {
+  display: block;
+}
+
+/* line 31, ../sass/_todo.scss */
+#todo {
+  background: url("../img/mid.jpg") repeat-y;
+  position: relative;
+  width: 252px;
+  margin: 120px auto 60px;
+}
+/* line 37, ../sass/_todo.scss */
+#todo h2 {
+  background: url("../img/header.jpg") no-repeat;
+  font-size: 16px;
+  text-align: center;
+  color: #fff;
+  height: 52px;
+  line-height: 42px;
+  text-shadow: 1px 1px 0 rgba(50, 50, 50, 0.5);
+  position: relative;
+}
+/* line 47, ../sass/_todo.scss */
+#todo h2 .add {
+  color: #fff;
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  margin-top: -14px;
+  width: 18px;
+  height: 18px;
+  border-radius: 4px;
+  border: 1px solid rgba(55, 55, 55, 0.4);
+  text-align: center;
+  line-height: 18px;
+  text-decoration: none !important;
+  font-size: 12px;
+  font-weight: normal;
+  background-color: rgba(50, 50, 50, 0.25);
+  box-shadow: 0px 0px 2px rgba(20, 20, 20, 0.2) inset;
+}
+/* line 67, ../sass/_todo.scss */
+#todo ul {
+  list-style: none;
+}
+/* line 70, ../sass/_todo.scss */
+#todo ul li {
+  padding: 12px 10px 12px 55px;
+  border-bottom: 1px solid #ccc;
+  position: relative;
+  word-wrap: break-word;
+}
+/* line 76, ../sass/_todo.scss */
+#todo ul li:last-child {
+  border-bottom: none;
+}
+/* line 80, ../sass/_todo.scss */
+#todo ul li input {
+  font: inherit;
+  color: inherit;
+  background: none;
+  border: none;
+  outline: none !important;
+}
+/* line 88, ../sass/_todo.scss */
+#todo ul li input[type=checkbox] {
+  display: inline-block;
+  margin: 0 0px 0 -17px;
+  cursor: pointer;
+  position: relative;
+  left: -26px;
+}
+/* line 96, ../sass/_todo.scss */
+#todo ul li.done input {
+  text-decoration: line-through;
+}
+/* line 100, ../sass/_todo.scss */
+#todo ul li a.delete {
+  width: 14px;
+  height: 14px;
+  background-color: #b02929;
+  border-radius: 50%;
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  margin-top: -7px;
+  color: #fff;
+  font-size: 10px;
+  text-align: center;
+  text-decoration: none !important;
+  line-height: 14px;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  transition: 0.4s;
+  opacity: 0;
+}
+/* line 123, ../sass/_todo.scss */
+#todo ul li:hover a.delete {
+  opacity: 0.9;
+}
+/* line 130, ../sass/_todo.scss */
+#todo:after {
+  position: absolute;
+  content: '';
+  background: url("../img/footer.png") no-repeat;
+  width: 100%;
+  height: 40px;
+}
+
+/* line 139, ../sass/_todo.scss */
+.credit {
+  text-align: center;
+  font-size: 10px;
+  margin: -25px 0 40px;
+}
+
+/*----------------------------
+	The Footer
+-----------------------------*/
+/* line 150, ../sass/_todo.scss */
+footer {
+  background-color: #111111;
+  bottom: 0;
+  box-shadow: 0 -1px 2px rgba(0, 0, 0, 0.4);
+  height: 45px;
+  left: 0;
+  position: fixed;
+  width: 100%;
+  z-index: 100000;
+}
+/* line 160, ../sass/_todo.scss */
+footer h2 {
+  color: #EEEEEE;
+  font-size: 14px;
+  font-weight: normal;
+  left: 50%;
+  margin-left: -400px;
+  padding: 13px 0 0;
+  position: absolute;
+  width: 540px;
+}
+/* line 170, ../sass/_todo.scss */
+footer h2 i {
+  font-style: normal;
+  color: #888;
+}
+/* line 176, ../sass/_todo.scss */
+footer a.tzine, footer a.tzine:visited {
+  color: #999999;
+  font-size: 12px;
+  left: 50%;
+  margin: 16px 0 0 110px;
+  position: absolute;
+  text-decoration: none;
+  top: 0;
+}
+/* line 186, ../sass/_todo.scss */
+footer a i {
+  color: #ccc;
+  font-style: normal;
+}
+/* line 190, ../sass/_todo.scss */
+footer a i b {
+  color: #c92020;
+  font-weight: normal;
+}
