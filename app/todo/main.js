@@ -2,7 +2,12 @@
 require.config({
 	baseUrl: '',
 	shim: {
-
+		backbone: {
+			deps: [
+				'underscore',
+				'jquery'
+			]
+		}
 	},
 	paths: {
 		jquery: 'lib/jquery-1.11.1.min',
