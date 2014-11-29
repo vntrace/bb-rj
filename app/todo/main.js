@@ -17,4 +17,13 @@ require.config({
 });
 
 // Require main app viewer
-require(['jquery']);
+require([
+	'jquery',
+	'underscore',
+	'backbone',
+	'app/todo/app'
+], function($, Backbone, _, AppView){
+	// New app view instance
+	var appView = new AppView({el: '#todo'});
+		appView.render(); // Render your app
+});

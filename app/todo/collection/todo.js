@@ -7,7 +7,19 @@ define(function(require){
 		TodoModel = require('app/todo/model/todo');
 	
 	var TodoCollection = Backbone.Collection.extend({
-		model: TodoModel
+		// Todo model class name
+		model: TodoModel,
+
+		/**
+		 * Added new toto object to the collection
+		 * @param {Object} todo
+		 */
+		addOne: function(todo) {
+			// Create new todo object
+			todo = new TodoModel(todo);
+			// Added todo to the collection
+			this.add(todo);
+		}
 	});
 
 	return TodoCollection;
